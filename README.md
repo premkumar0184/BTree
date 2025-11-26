@@ -4,7 +4,7 @@ This project provides a complete implementation of a B-Tree data structure in C,
 
 The project supports insertion, search, deletion, traversal, and finding the minimum element for arbitrary minimum degree t.
 
-Features
+# Features
 Core Functionality
 
 Creation of an empty B-Tree for any minimum degree t ≥ 2
@@ -30,7 +30,7 @@ Inorder traversal (prints keys in sorted order)
 
 Minimum key retrieval
 
-C Implementation (main.c)
+# C Implementation (main.c)
 
 The C version contains modular functions for each part of the B-Tree algorithm:
 
@@ -58,7 +58,7 @@ Print inorder traversal
 
 Find the minimum element
 
-C++ Implementation (Btree.cpp)
+# C++ Implementation (Btree.cpp)
 
 The C++ file contains a templated B-Tree class that supports:
 
@@ -68,7 +68,7 @@ Insert, search, delete, inorder, preorder, and minimum operations
 
 Randomized testing in the provided main function
 
-How to Compile
+# How to Compile
 C Version
 gcc main.c -o btree
 ./btree
@@ -77,17 +77,6 @@ C++ Version
 g++ Btree.cpp -o btree_cpp
 ./btree_cpp
 
-Usage
-
-Run the program.
-
-Enter the minimum degree t when prompted.
-
-Select one of the options from the interactive menu:
-
-Insert keys
-
-Search for a key
 
 Delete a key
 
